@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SlimParallax jQuery</title>
+    <link rel="stylesheet" href="css/prism.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="space">
+            <div class="container text-center">
+                <div class="content">
+                    <h1 class="title">This is the jQuery Slim Parallax</h1>
+                    <p class="subtitle">Small, simple and easy to use jQuery parallax plugin</p>
+                    <hr>
+
+                    <div class="box">
+                        <p><strong>Step 1:</strong> Add jquery, slimparallax and your script file to your html (footer is the best place to put scripts. Just before the closing body tag).</p>
+                        <pre>
+                            <code class="language-html">
+    &lt;script src="js/jquery.js"&gt;&lt;/script&gt;
+    &lt;script src="js/slimparallax.js"&gt;&lt;/script&gt;
+    &lt;script src="js/script.js"&gt;&lt;/script&gt;
+                            </code>
+                        </pre>
+                    </div>
+
+                    <div class="box">
+                        <p><strong>Step 2:</strong> Create a simple structure. Give content parent a class (slim-prx in that case) and put contents inside the wrapper.</p>
+                        <pre>
+                            <code class="language-html">
+    &lt;div class="slim-prx"&gt;
+        &lt;div class="container"&gt;
+            content
+        &lt;/div&gt;
+    &lt;/div&gt;
+                            </code>
+                        </pre>
+                    </div>
+
+                    <div class="box">
+                        <p><strong>Note 1:</strong> You can add different speed for different parallax. To do that put <strong>data-slim-prx-speed="20"</strong>. Acceptable value is between 2 and 40. The lesser the value faster the parallax image moves. Setting data value is optional. <strong>Default value is 20.</strong></p>
+                        <pre>
+                            <code class="language-html">
+    &lt;div class="slim-prx" data-slim-prx-speed="10"&gt;
+        &lt;div class="container"&gt;
+            content
+        &lt;/div&gt;
+    &lt;/div&gt;
+                            </code>
+                        </pre> 
+                    </div>
+
+                    <div class="box">
+                            <p><strong>Step 3:</strong> Add css to the section where you want to set the background-image. For a better result you can specify its height.</p>
+                            <pre>
+                                <code class="language-css">
+    background-image: url("../img/bg.jpg");                                
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+                                </code>
+                            </pre> 
+                        </div>
+                        
+                        <div class="box">
+                            <p><strong>Step 4:</strong> Add the script in your script.js file and you are good to go :) . You can setup global speed here. Though it will be overriden if section has data speed attribute. See <strong>Note 1</strong> for details.</p>
+                            <pre>
+                                <code class="language-js">
+    $('.slim-prx').slim_palallax({
+        speed: 10
+    });    
+                                </code>
+                            </pre> 
+                        </div>                         
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="prx-one slim-prx" data-slim-prx-speed="20">
+            <div class="container">
+
+            </div>
+        </div>
+
+        <div class="space text-center">
+            <div class="container">
+                <div class="content">
+                    <h2 class="title">About</h2>
+                    <p>Author: Sajidur Rahman</p>
+                    <p>Mail: sajibsrs@gmail.com</p>
+                    <p>Twitter: <a href="https://twitter.com/sajibsrs">Twitter</a></p>
+                    <p>Linkedin: <a href="https://www.linkedin.com/in/sajibsrs">Linkedin</a></p>
+                    <p>Github: <a href="https://github.com/sajibsrs">Github</a></p>
+                    <p>Themeforest: <a href="https://themeforest.net/user/sajibsrs/portfolio">Themeforest</a></p>
+                    <p>Images: <a href="https://unsplash.com">Unsplash</a></p>
+                    <hr>
+                    <h3 class="greetings">Thank you so much :)</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="prx-two slim-prx">
+            <div class="container">
+
+            </div>
+        </div>
+
+        <div class="space">
+            <div class="container">
+
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/jquery.3.3.1.min.js"></script>
+    <script src="js/slimparallax.min.js"></script>
+    <Script src="js/scripts.js"></Script>
+    <script src="js/prism.js"></script>
+</body>
+</html>

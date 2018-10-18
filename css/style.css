@@ -1,0 +1,114 @@
+
+/* Common styling for the contents */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,600');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-break: break-all;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+p{
+    margin-bottom: 1rem;
+}
+
+strong{
+    font-weight: 600;
+}
+
+hr{
+    margin: 2rem 0;
+    background-color: #e0e4ea;
+    height: 1px;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title{
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.subtitle{
+    font-size: 1.2rem;
+}
+
+.space h1, .space h2, .space h3, .space p{
+    color: #7f8898;
+}
+
+.space .title, h3.greetings, a{
+    color: #90cbe8;
+}
+
+.space .box{
+    text-align-last: left;
+    margin: 3rem 0;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.wrapper .container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container .content{
+    margin: 4rem 15px;
+}
+
+.slim-prx{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+}
+
+.prx-one{
+    background-image: url(../img/bg.jpg);
+}
+
+.prx-two{
+    background-image: url(../img/bg1.jpg);
+}
+
+.space{
+    min-height: 800px;
+}
+
+h3.greetings{
+    font-weight: 400;
+}
+
+code[class*="language-"], pre[class*="language-"]{
+    /* white-space: normal; */
+    font-weight: 400;
+}
