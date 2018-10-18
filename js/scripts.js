@@ -3,6 +3,6 @@
 'use strict';
 
 // Design data model
-$('.slim-prx').slim_palallax({
+$('.slim-prx').slim_parallax({
     speed: 10
 });
