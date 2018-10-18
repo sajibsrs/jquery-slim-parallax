@@ -1,2 +1,2 @@
 # jQuery slim parallax
-## See github page for details and demo
+[Visit github page for details and demo](https://sajibsrs.github.io/jquery-slim-parallax "Project home page")
