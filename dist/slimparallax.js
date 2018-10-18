@@ -18,7 +18,7 @@
         win_height = win.height();
     });
 
-    $.fn.slim_palallax = function(arg) {
+    $.fn.slim_parallax = function(arg) {
         var self = $(this);
         var speed = arg.speed;
 
