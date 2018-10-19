@@ -34,6 +34,7 @@ h3{
 
 p{
     margin-bottom: 1rem;
+    font-size: 1.05rem;
 }
 
 strong{
@@ -45,6 +46,10 @@ hr{
     background-color: #e0e4ea;
     height: 1px;
     border: 0;
+}
+
+em{
+    color: #b421e2;
 }
 
 a{
@@ -61,11 +66,11 @@ a{
 }
 
 .space h1, .space h2, .space h3, .space p{
-    color: #7f8898;
+    color: #5b6069;
 }
 
 .space .title, h3.greetings, a{
-    color: #90cbe8;
+    color: #3db3ec;
 }
 
 .space .box{
@@ -109,7 +114,8 @@ h3.greetings{
     font-weight: 400;
 }
 
-code[class*="language-"], pre[class*="language-"]{
-    /* white-space: normal; */
-    font-weight: 400;
+pre[class*="language-"] span{
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    letter-spacing: 0;
+    font-size: 1.1rem;
 }
