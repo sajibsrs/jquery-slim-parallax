@@ -56,7 +56,7 @@ a{
     text-decoration: none;
 }
 
-.title{
+.title, .title a{
     font-size: 4rem;
     font-weight: 100;
 }
