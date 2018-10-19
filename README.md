@@ -1,7 +1,6 @@
 # jQuery slim parallax
 
 > Parallax effest is not mobile friendly. You'll see static background instead.
-
 > IE not supported.
 
 
