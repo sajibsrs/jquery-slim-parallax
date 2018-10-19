@@ -43,7 +43,7 @@
                     </div>
 
                     <div class="box">
-                        <p><strong>Note 1:</strong> You can add different speed for different parallax. To do that put <strong>data-slim-prx-speed="20"</strong>. Acceptable value is between 2 and 40. The lesser the value faster the parallax image moves. Setting data value is optional. <strong>Default value is 20.</strong></p>
+                        <p><strong>Note 1:</strong> You can add different speed for different parallax. To do that put <strong>data-slim-prx-speed="20"</strong>. Acceptable value is between 2 and 40. The lesser the value faster the parallax image moves. <em>Setting data value is optional.</em> <strong>Default value is 20.</strong></p>
                         <pre>
                             <code class="language-html">
     &lt;div class="slim-prx" data-slim-prx-speed="10"&gt;
@@ -75,7 +75,14 @@
         speed: 10
     });    
                                 </code>
-                            </pre> 
+                            </pre>
+                            <br>
+                            <p>This is the minimum you need to add to your script file.</p>
+                           <pre>
+                                <code class="language-js">
+    $('.slim-prx').slim_parallax();    
+                                </code>
+                            </pre>                             
                         </div>                         
                     
                 </div>
