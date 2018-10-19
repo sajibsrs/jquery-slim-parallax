@@ -43,10 +43,10 @@
                     </div>
 
                     <div class="box">
-                        <p><strong>Note 1:</strong> You can add different speed for different parallax. To do that put <strong>data-slim-prx-speed="20"</strong>. Acceptable value is between 2 and 40. The lesser the value faster the parallax image moves. <em>Setting data value is optional.</em> <strong>Default value is 20.</strong></p>
+                        <p><strong>Note 1:</strong> You can add different speed for different parallax. To do that put <em>data-slim-prx-speed="20"</em>   . Acceptable value is between 2 and 40. The lesser the value faster the parallax image moves. <em>Setting data value is optional.</em> <strong>Default value is 20.</strong></p>
                         <pre>
                             <code class="language-html">
-    &lt;div class="slim-prx" data-slim-prx-speed="10"&gt;
+    &lt;div class="slim-prx slim-prx-one" data-slim-prx-speed="10"&gt;
         &lt;div class="container"&gt;
             content
         &lt;/div&gt;
@@ -59,10 +59,20 @@
                             <p><strong>Step 3:</strong> Add css to the section where you want to set the background-image. For a better result you can specify its height.</p>
                             <pre>
                                 <code class="language-css">
-    background-image: url("../img/bg.jpg");                                
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;    
+
+    .slim-prx{                            
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
+    .slim-prx-one{
+        background-image: url("../img/bg-one.jpg");
+    }
+
+    .slim-prx-one{
+        background-image: url("../img/bg-two.jpg");
+    }
                                 </code>
                             </pre> 
                         </div>
